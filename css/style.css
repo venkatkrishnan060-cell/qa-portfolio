@@ -1194,70 +1194,76 @@ header{
 }
 
 .navbar{
-    width:100%;
+    width:95%;
+    margin:10px auto;
+    padding:18px;
     flex-direction:column;
-    padding:15px;
-    gap:20px;
+    gap:18px;
 }
 
 .logo{
-    font-size:26px;
+    font-size:22px;
     text-align:center;
 }
 
 .nav-links{
-    width:100%;
-    justify-content:center;
     display:flex;
+    justify-content:center;
     flex-wrap:wrap;
-    gap:15px;
-}
-
-.nav-links li{
-    list-style:none;
+    gap:18px;
 }
 
 .nav-links a{
     font-size:18px;
 }
 
+/* HERO */
+
 .hero{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 140px 10% 80px;   /* Increased top padding */
-    gap: 50px;
+    flex-direction:column-reverse;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:170px 20px 60px;
+    gap:35px;
 }
 
 .hero-left{
     width:100%;
+    display:flex;
+    flex-direction:column;
     align-items:center;
 }
-.hero-left h1 {
-    font-size: 3rem;
-    line-height: 1.1;
-    word-break: break-word;
-    overflow-wrap: break-word;
-    text-align: center;
-}
 
-.hero-name{
-    font-size:42px;
+.hero-left h1{
+    font-size:2.7rem;
     line-height:1.2;
+    margin-bottom:15px;
 }
 
-.hero-role{
-    font-size:26px;
+.hero-left p{
+    width:100%;
+    font-size:17px;
+    line-height:1.8;
 }
 
-.hero-description{
-    font-size:18px;
-    line-height:1.7;
+.hero-right{
+    width:100%;
+    display:flex;
+    justify-content:center;
 }
+
+.hero-right img{
+    width:240px;
+    height:240px;
+}
+
+/* Buttons */
 
 .hero-buttons{
-    flex-direction:column;
     width:100%;
+    flex-direction:column;
+    gap:15px;
 }
 
 .hero-buttons .btn{
@@ -1265,14 +1271,14 @@ header{
     justify-content:center;
 }
 
-.hero-right{
-    width:100%;
+/* Hero Tags */
+
+.hero-tags{
+    justify-content:center;
+    flex-wrap:wrap;
 }
 
-.hero-right img{
-    width:220px;
-    height:220px;
-}
+/* Connect */
 
 .connect-section{
     width:100%;
@@ -1283,17 +1289,20 @@ header{
     flex-wrap:wrap;
 }
 
+/* About */
+
 .about-highlights{
-    flex-direction:column;
+    display:grid;
+    grid-template-columns:1fr;
 }
 
-.highlight{
-    width:100%;
-}
+/* Skills */
 
 .skills-container{
     grid-template-columns:1fr;
 }
+
+/* Experience */
 
 .experience-top{
     flex-direction:column;
@@ -1309,6 +1318,8 @@ header{
     grid-template-columns:1fr;
 }
 
+/* Education */
+
 .education-card{
     flex-direction:column;
     text-align:center;
@@ -1318,8 +1329,10 @@ header{
     margin:auto;
 }
 
-.edu-content h3{
-    font-size:30px;
+/* Projects */
+
+.project-grid{
+    grid-template-columns:1fr;
 }
 
 .project-header{
@@ -1330,6 +1343,8 @@ header{
 .project-features{
     grid-template-columns:1fr;
 }
+
+/* Contact */
 
 .contact-container{
     grid-template-columns:1fr;
@@ -1343,11 +1358,14 @@ header{
     flex-direction:column;
 }
 
+/* Titles */
+
 .section-title{
-    font-size:34px;
+    font-size:32px;
 }
 
 }
+
 .hero-tags{
     display:flex;
     flex-wrap:wrap;
