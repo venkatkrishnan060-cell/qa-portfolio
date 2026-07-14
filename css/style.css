@@ -703,11 +703,11 @@ font-size:15px;
     padding: 29px;
 }
 
-.hero {
+.hero{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 80px 10%;
+    padding: 140px 10% 80px;   /* Increased top padding */
     gap: 50px;
 }
 
