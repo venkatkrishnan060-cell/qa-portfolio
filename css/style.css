@@ -130,7 +130,6 @@ header{
     display: flex;
     align-items: center;
     gap: 20px;
-    flex-wrap: nowrap;
     margin-top: 30px;
 }
 
@@ -1234,6 +1233,13 @@ header{
     width:100%;
     align-items:center;
 }
+.hero-left h1 {
+    font-size: 3rem;
+    line-height: 1.1;
+    word-break: break-word;
+    overflow-wrap: break-word;
+    text-align: center;
+}
 
 .hero-name{
     font-size:42px;
@@ -1355,3 +1361,15 @@ header{
     border-radius:20px;
     font-size:14px;
 }
+
+.highlight-name {
+    color: #38bdf8;
+    font-weight: 800;
+}
+
+.highlight-name {
+    color: #38bdf8;
+    font-weight: 800;
+    text-shadow: 0 0 10px rgba(11, 126, 176, 0.5);
+}
+
