@@ -96,14 +96,11 @@ header{
 ========================================== */
 
 .hero{
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-    gap:60px;
-    width:90%;
-    max-width:1400px;
-    margin:auto;
-    min-height:100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 140px 10% 80px;   /* Increased top padding */
+    gap: 50px;
 }
 
 .hero-left{
@@ -1226,11 +1223,11 @@ header{
 }
 
 .hero{
-    flex-direction:column-reverse;
-    text-align:center;
-    padding:180px 20px 60px;
-    gap:30px;
-    min-height:auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 140px 10% 80px;   /* Increased top padding */
+    gap: 50px;
 }
 
 .hero-left{
